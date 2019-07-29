@@ -15,5 +15,5 @@
     (graph, ) = pydot.graph_from_dot_file('./tree.dot')
     graph.write_png('tree.png')
 #### 2、windows python3库pydot运行出现：FileNotFoundError: [WinError 2] "dot" not found in path.（参考上传的pdf文件）
-    1、安装软件：graphviz-2.38.msi
+    1、安装软件：graphviz-2.38.msi  下载地址：https://graphviz.gitlab.io/_pages/Download/Download_windows.html
     2、配置环境变量
