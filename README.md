@@ -8,3 +8,12 @@
 #### 5、训练决策树
 #### 6、预测结果
 #### 7、导出决策树结构
+### 问题
+#### 1、使用python将dot文件转换为png文件
+    pip 安装 pydot库
+    import pydot
+    (graph, ) = pydot.graph_from_dot_file('./tree.dot')
+    graph.write_png('tree.png')
+#### 2、windows python3库pydot运行出现：FileNotFoundError: [WinError 2] "dot" not found in path.（参考上传的pdf文件）
+    1、安装软件：graphviz-2.38.msi
+    2、配置环境变量
